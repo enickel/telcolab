@@ -1,12 +1,14 @@
 # TelcoLab
+[DRAFT REPOSITORY] 
+This is a Working in Progress (W.I.P) proof-of-concept (POC). 
 
 ## Objective 
-
+ 
 To collect information, tools and configurations that can support network lab operations.
 
 ## Description
 
-Services Lifecycle macro segmentation :
+Services lifecycle macro segmentation :
 ```mermaid
   graph LR;
   
@@ -41,9 +43,18 @@ Services Lifecycle macro segmentation :
 
 ```
 
-### Requested Feautures
+### Requested Features
 ##### Information
 - Subscriber Topology tracer.
 -- Element model, Element vendor, if phy, if log, vlans, ips, versions.
 - Lab configuration dump and versioning. 
+
+### How It Works
+
+##### Applications / RobotFramework
+
+
+### Change Log
+
+- Included reference samples for Robot Framework usage in Applications / RobotFramework
 
